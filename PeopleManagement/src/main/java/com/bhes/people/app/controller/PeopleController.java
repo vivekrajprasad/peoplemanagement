@@ -27,7 +27,7 @@ public class PeopleController {
 		System.out.println(p);
 		return p;
 	}
-	@PutMapping(value="/people")
+	//@PutMapping(value="/people")
 	public void savePeople(People people)
 	{
 		peopleService.saveAll(people);
